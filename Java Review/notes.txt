@@ -1,0 +1,45 @@
+Variables
+- slot in memory to hold value
+- declared
+- assignment
+- Java = statically-typed so variables need to be declared before being used
+- 4 types of variables: instance (non-static), class (static), local, parameters
+- instanceof operator to check if a variable is of a certain type (ie. boolean result = str instanceof String)
+- ternary operator - aka conditional operator ; variable = Expression ? expression1 : expression2; 
+
+Scanner (input)
+- import java.util.Scanner
+- use with nextInt(), nextDouble(), next() methods
+
+Control Flow in Java
+- if..else if...else
+- switch statement - uses breaks
+- for loop
+- for-each loop (to loop over arrays and collections)
+- while loop
+
+break and continue
+- used to skip over some code
+- break - terminates the loop immediately and program control goes to statement following the loop
+in case of nested loops, if break statement is in the inner loop, it breaks out of it and control goes back to the outer loop
+- continue - skips the current iteration of the loop
+
+Array
+- collection of same data type items
+- declaration + initialization
+- elements accessed using index
+- can have single or multidimensional arrays
+
+Java OOP
+- classes have fields (state) and behaviors (methods)
+- object = instance of a class
+
+Inheritance
+- main purpose = code reusability because code in parent class can be used by child class
+
+Exception
+- unexpected event that occurs during program execution 
+- some things that can cause exceptions: invalid user input, device failure, code errors, opening unavailable
+file, etc...
+- exceptions can be caught and handled by the program
+
